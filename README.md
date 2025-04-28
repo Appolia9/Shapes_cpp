@@ -8,8 +8,8 @@ There are also two additional classes that specify the properties of shapes.
 Some shapes can be rotated. For such shapes, there is a rotatable base class derived from shape.
 For other shapes, a reflection operation is possible relative to the horizontal or vertical axis. 
 These shapes can be built based on the reflective class. If both are needed for a shape, then it must be derived from both classes.\
-The **"shape"** class is the core of the snape shape library.h. There is also a screen support library.h, in which the screen dimensions are defined,
-the concept of a point is introduced and the screen utilities are listed, which are then specified in shape.h. 
+The **"shape"** class is the core of the library **shape.h**. There is also a library support **screen.h**, in which the screen dimensions are defined,
+the concept of a point is introduced and the screen utilities are listed, which are then specified in **shape.h**. 
 For simplicity and versatility, screen operation is implemented as the formation and line-by-line output of a matrix of symbols.\
 When the program starts, the announced collection of shapes is first displayed on the screen.
 Then the result of the rotation/reflection of some shapes is demonstrated as a preparation for their use. Then, using the attachment function, 
